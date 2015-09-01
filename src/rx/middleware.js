@@ -87,7 +87,7 @@ class Middleware {
                     .filter(({id}) => this.deletedMiddleware.indexOf(id) === -1)
                     .startWith(val)
                     .scan((acc, {fn}) => fn(acc))
-                    .throttle();
+                    .debounce(1);
     }
 }
 

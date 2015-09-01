@@ -14,7 +14,7 @@
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
   "license": "MIT",
   "dependencies": {
-    "rx": "~3.0.0"
+    "rx": "^3.1.0"
   },
   "peerDependencies": {
     "rxmq": "^0.7.0"

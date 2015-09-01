@@ -78,7 +78,7 @@ test('Rxmq middleware', (it) => {
         mid.list()
             .startWith(0)
             .scan((acc) => acc + 1)
-            .throttle()
+            .debounce(1)
             .subscribe((all) => {
                 t.equal(all, 0);
                 t.end();
