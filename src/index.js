@@ -1,2 +1,2 @@
-export * from './rx';
-export * from './channel';
+export {MiddlewareSubject, MiddlewareAsyncSubject} from './rx';
+export {addChannelMiddleware} from './channel';

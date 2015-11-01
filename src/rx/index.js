@@ -1,2 +1,2 @@
-export * from './middlewareSubject.js';
-export * from './middlewareAsyncSubject.js';
+export {MiddlewareSubject} from './middlewareSubject.js';
+export {MiddlewareAsyncSubject} from './middlewareAsyncSubject.js';
