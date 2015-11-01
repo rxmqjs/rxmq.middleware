@@ -1,6 +1,6 @@
 {
   "name": "rxmq.middleware",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A plugin that adds support for topic-based middleware for Rxmq.js",
   "main": "es5/component.js",
   "es6": "index.js",
